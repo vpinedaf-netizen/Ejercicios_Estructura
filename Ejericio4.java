@@ -1,0 +1,21 @@
+//*Ejercicio 4 — Placa de un vehículo */
+
+public class Ejericio4 {
+    public static void main(String[] args) {
+        String placa = "ABC123";
+        int añoFabricacion = 2020;
+        int cilindraje = 1600;
+        double precioCompra = 45000000.0;
+        char inicialColor = 'R';
+        boolean tieneSOATVigente = true;
+
+        System.out.println("=== Placa del Vehículo ===");
+        System.out.println("Placa: " + placa);
+        System.out.println("Año de fabricación: " + añoFabricacion);
+        System.out.println("Cilindraje: " + cilindraje + " cc");
+        System.out.println("Precio de compra: " + precioCompra);
+        System.out.println("Inicial del color: " + inicialColor);
+        System.out.println("Tiene SOAT vigente: " + tieneSOATVigente);
+    }
+}
+
