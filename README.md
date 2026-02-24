@@ -1,6 +1,19 @@
 # Ejercicios_Estructura
 
 ## Ejercicio 1 — Ficha de un estudiante
+//**Un sistema universitario necesita registrar la información básica de un 
+// estudiante: nombre completo, código (número entero), semestre actual, promedio acumulado y si está matriculado o no.
+
+//Declara las variables con los tipos de datos apropiados.
+//Asigna valores de ejemplo.
+//Imprima un informe por consola con el siguiente formato:
+
+// === Ficha del Estudiante ===
+//Nombre: Ana Torres
+//Código: 20241001
+//Semestre: 3
+//Promedio: 3.85
+//Matriculado: true
 
 public class Ejericio1 {
     public static void main(String[] args) {
@@ -20,6 +33,13 @@ public class Ejericio1 {
 }
 
 ## Ejercicio 2 — Calculadora de una tienda
+ //Una tienda de barrio vende productos al por menor. El cajero necesita calcular:
+
+//Precio unitario de un producto ( double)
+//Cantidad comprada ( int)
+//Descuento aplicado en porcentaje ( double)
+//Total a pagar después del descuento
+//Declara las variables, realiza el cálculo y muestra el resultado por consola.
 
 public class Ejericio2 {
     public static void main(String[] args) {
@@ -43,6 +63,14 @@ public class Ejericio2 {
 
 ## Ejercicio 3 — Sensor de temperatura
 
+//Un sensor industrial registra temperaturas. El sistema recibe:
+
+//Temperatura actual en Celsius ( double)
+//Nombre del sensor ( String)
+//Número de lectura ( int)
+//Si la temperatura supera el límite de 80°C, debe ser una booleanllamada variable .enAlarmatrue
+//Imprime el estado del sensor con todos sus datos.
+
 public class Ejericio3 {
     public static void main(String[] args) {
         double temperaturaActual = 85.5;
@@ -59,6 +87,15 @@ public class Ejericio3 {
 }
 
 ## Ejercicio 4 — Placa de un vehículo
+//El RUNT almacena datos básicos de vehículos. Modela la información de un carro con:
+
+//Placa ( String)
+//Año de fabricación ( int)
+//Cilindraje en cc ( int)
+//Precio de compra ( double)
+//Inicial del color ( char)
+//Si tiene SOAT vigente ( boolean)
+//Muestra todos los datos en consola.
 
 public class Ejericio4 {
     public static void main(String[] args) {
@@ -80,6 +117,12 @@ public class Ejericio4 {
 }
 
 ## Ejercicio 5 — Conversor de unidades
+//Una aplicación de cocina necesita convertir unidades:
+
+//Declara una variable tazas( double) con la cantidad de tazas de un ingrediente.
+//Convierte a mililitros (1 taza = 236,588 ml) y guarda el resultado en otra variable.
+//Convierte también a litros.
+//Muestra las tres medidas por consola.
 
 public class Ejericio5 {
     public static void main(String[] args) {
@@ -94,6 +137,10 @@ public class Ejericio5 {
     }
 }
 ## Ejercicio 6 — Turno en un banco 
+//Un cajero de banco trabaja con el número del turno actual. Se crea una variable turnoActualy se asigna a turnoEnPantalla.
+
+//Demuestra con código que cambiar turnoEnPantalla no afecta a turnoActual(comportamiento por valor).
+//Explique en un comentario por qué ocurre esto.
 
 public class Ejercicio6{
     public static void main(String[] args) {
@@ -112,6 +159,7 @@ public class Ejercicio6{
     }    
 } 
 ## Ejercicio 7 — Inventario compartido
+//Un almacén tiene un arreglo con el stock de 5 productos. El sistema de ventas y el sistema de informes apuntan al mismo arreglo .
 
 public class Ejercico7 {
     public static void main(String[] args) {
@@ -136,6 +184,13 @@ public class Ejercico7 {
 }
 
 ## Ejercicio 8 — Historial de mensajes
+//Un chat guarda el último mensaje enviado. Se usan dos variables String:
+
+//ultimoMensaje = "Hola"
+//copiaTexto = ultimoMensaje
+//Luego copiaTextose cambia a"¿Cómo estás?"
+//Muestra ambas variables y explica en un comentario por qué ultimoMensaje no cambió 
+// (inmutabilidad de String).
 public class Ejercicio8 {
     public static void main(String[] args) {
         String ultimoMensaje = "Hola";
@@ -153,6 +208,12 @@ public class Ejercicio8 {
 //crea un nuevo objeto en memoria, y el original (ultimoMensaje) no se modifica. */
 
 ## Ejercicio 9 — Notas de un curso */
+//Un profesor tiene las notas de 4 estudiantes en un arreglo. 
+// El coordinador recibe una referencia al mismo arreglo para revisarlas.
+
+//El coordinador corrige la nota del estudiante 2 (índice 1) de 2.5a 3.0.
+//Muestra que el arreglo del profesor también refleja el cambio .
+//Agregue comentarios explicando el concepto de referencia en memoria.
 
 public class Ejercicio9 {
     public static void main(String[] args) {
@@ -177,6 +238,12 @@ public class Ejercicio9 {
 // stockReportes, también cambia stockAlmacen. */
 
 ## Ejercicio 10 — Copiando configuración
+//Una aplicación tiene un objeto int[] configuracion = {1920, 1080, 60}(resolución y FPS).
+
+//Crea una copia real del arreglo (no una referencia) usando un nuevo arreglo y 
+// copiando elemento por elemento.
+//Modifica la copia y demuestra que el original no cambia .
+//Comenta la diferencia con la asignación directa.
 
 public class Ejercicio10 {
     public static void main(String[] args) {
