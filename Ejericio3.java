@@ -1,4 +1,11 @@
 //**Ejercicio 3 — Sensor de temperatura */
+//Un sensor industrial registra temperaturas. El sistema recibe:
+
+//Temperatura actual en Celsius ( double)
+//Nombre del sensor ( String)
+//Número de lectura ( int)
+//Si la temperatura supera el límite de 80°C, debe ser una booleanllamada variable .enAlarmatrue
+//Imprime el estado del sensor con todos sus datos.
 
 public class Ejericio3 {
     public static void main(String[] args) {

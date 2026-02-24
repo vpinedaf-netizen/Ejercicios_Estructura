@@ -1,4 +1,10 @@
 //Ejercicio 7 — Inventario compartido
+//Un almacén tiene un arreglo con el stock de 5 productos. El sistema de ventas y el sistema de informes apuntan al mismo arreglo .
+
+//Crea el arreglo stockAlmacencon valores iniciales.
+//Asigna stockReportes = stockAlmacen.
+//Simule una venta reduciendo el stock de un producto desde stockReportes.
+//Muestra que stockAlmacen también cambió y explica en comentarios por qué.
 
 public class Ejercicio7 {
     public static void main(String[] args) {
